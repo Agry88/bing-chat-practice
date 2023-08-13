@@ -1,0 +1,25 @@
+{
+  "name": "bing-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bing-chat": "^0.2.3",
+    "dotenv": "^16.3.1",
+    "fetch": "^1.1.0",
+    "node": "^20.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.10",
+    "nodemon": "^3.0.1"
+  }
+}
