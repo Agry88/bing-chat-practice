@@ -5,9 +5,8 @@
   "main": "./src/index.ts",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "start": "node dist/index.js",
-    "build": "tsc -p ."
+    "dev": "nodemon --exec node --loader ts-node/esm src/index.ts",
+    "start": "node --loader ts-node/esm src/index.ts"
   },
   "author": "",
   "license": "ISC",
